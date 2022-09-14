@@ -1,11 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-
 Task firstTask = DoSomethingAsync("1st", 5, 3);
 Task secondTask = DoSomethingAsync("2nd", 5, 4, true);
 Task thirdTask = DoSomethingAsync("3rd", 5, 3, true);
-
 
 async Task DoSomethingAsync(string taskName, int loops, int waitTimeInSeconds, bool throwException = false)
 {
